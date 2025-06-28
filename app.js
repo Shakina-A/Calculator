@@ -1,8 +1,9 @@
-function appendValue(value) {
+
+function append(value) {
   document.getElementById('display').value += value;
 }
 
-function clearDisplay() {
+function clear() {
   document.getElementById('display').value = '';
 }
 
